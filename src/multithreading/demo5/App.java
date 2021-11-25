@@ -1,7 +1,7 @@
 package multithreading.demo5;
 
-//
-
+//Intrinsic Looking
+//Synchronized lock execution to current thread and does not cache variables, no need to volatile variables inside synchronized blocks.
 public class App {
 
     private int count = 0;
